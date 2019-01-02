@@ -1,5 +1,5 @@
-FROM alpine:3.2
-MAINTAINER Jaka Hudoklin <jakahudoklin@gmail.com>
+FROM easypi/alpine-arm 
+MAINTAINER kenney he<kenneyhe@gmail.com>
 
 # Install openvpn
 RUN echo "http://dl-4.alpinelinux.org/alpine/edge/community/" >> /etc/apk/repositories && \
